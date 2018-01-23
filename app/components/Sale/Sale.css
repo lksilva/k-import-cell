@@ -1,0 +1,117 @@
+.containerSale {
+  height: 100%;
+  width: 100%;
+}
+
+.containerSale h1 {
+  text-align: center;
+  padding: 15px;
+}
+
+.wrapperSale {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapperSale aside {
+  width: 500px;
+  min-height: 40px;
+  margin: 2px;
+  padding: 20px
+}
+
+.boxProduct {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #ececec;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.boxProduct h5 {
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.boxProductInput {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.boxProductInput .boxInput {
+  flex: 1 auto;
+}
+
+.boxProductInput input {
+  width: 200px !important;
+  margin-right: 2px;
+}
+
+.boxInfoProduct {
+  width: 200px;
+  height: 80px;
+  padding: 5px;
+  border: 1px solid #bce0fd;
+  flex: 1 auto;
+  margin-left: 2px;
+}
+
+.boxInfoProduct > label {
+  display: block;
+}
+
+.boxInfoProduct > b {
+  font-size: 40px;
+  color: #ff7958;
+}
+
+.typeMount {
+  height: 47px;
+  width: 47px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.boxProductInput label {
+  text-align: left
+}
+
+.containerSale .OrangeButtonContainer {
+  margin: 25px auto !important;
+}
+
+.infoSale {
+  width: 100%;
+  text-align: right;
+  padding: 15px;
+}
+
+.infoSale b {
+  font-size: 40px;
+  color: #ff7958;
+}
+
+.infoSale label {
+  margin-right: 10px;
+}
+
+.saleDisabledComponent > div {
+  background-color: #afafaf  !important;
+  pointer-events: none;
+}
+
+.typePayment {
+  text-align: left;
+}
+
+.containerSale .finishButton {
+  width: 100%;
+  margin-top: 40px;
+}

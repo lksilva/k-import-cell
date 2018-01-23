@@ -1,0 +1,11 @@
+.userLoader {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.userLoader label {
+  display: block;
+  margin-top: 15px;
+  color: #342e2e;
+  font-weight: 700;
+}

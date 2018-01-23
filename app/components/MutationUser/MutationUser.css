@@ -1,0 +1,20 @@
+.wraperMutationUser {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.wraperMutationUser > * {
+  padding: 15px;
+  flex: 1 auto;
+}
+
+.wraperMutationUser header, .wraperMutationUser footer {
+  width: 100%;
+}
+
+.wraperMutationUser aside {
+  text-align: left;
+  max-width: 330px;
+}

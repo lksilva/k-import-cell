@@ -1,0 +1,28 @@
+.containerHome {
+  max-width: 608px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerHome > div:nth-child(1), .containerHome > div:nth-child(4) {
+  margin: 15px 20px 0 0;
+}
+
+.containerHome > div:nth-child(2), .containerHome > div:nth-child(5) {
+  margin: 15px 0 0 15px;
+}
+
+.containerHome > div:nth-child(4), .containerHome > div:nth-child(5) {
+  top: -70px;
+  position: relative;
+}
+
+.containerHome > div:nth-child(3) {
+  width: 406px !important;
+  top: -25px;
+  position: relative;
+}

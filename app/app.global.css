@@ -1,0 +1,24 @@
+@import "~font-awesome/css/font-awesome.css";
+
+* {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body, html, #root, #root>div {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #342E2E;
+  background-color: #F5E39B;
+  font-family:  sans-serif, Arial, Helvetica, Helvetica Neue, serif;
+  margin: 0;
+}
+

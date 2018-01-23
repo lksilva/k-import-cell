@@ -1,0 +1,32 @@
+.containerHive {
+  width: 203px;
+  height: 231px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerHive:hover > .homePageIcon, .containerHive:hover > .labelHomePage{
+  color: #232231;
+}
+
+.containerHive svg {
+  position: absolute;
+}
+
+.homePageIcon {
+  font-size: 110px !important;
+  color: #878796;
+  transition: color .7s ease;
+}
+
+.labelHomePage {
+  transition: color .7s ease;
+  color: #878796;
+  width: 203px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}

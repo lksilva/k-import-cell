@@ -1,0 +1,10 @@
+.filledButton {
+  min-width: 150px;
+  border: none;
+  background: #ff7958;
+}
+
+.filledButton:hover {
+  background: #fff;
+  color: #ff7958;
+}

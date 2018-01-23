@@ -1,0 +1,37 @@
+.button {
+  padding: 8px;
+  font-size: 17px;
+  min-width: 120px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 60px;
+  border: 1px solid;
+  transition: background-color 0.3s, color 0.3s;
+  outline: none;
+  max-height: 50px;
+}
+
+.button[disabled], .button:disabled {
+  border-color: #878796 !important;
+  background: #afafaf !important;
+  color: #666666 !important;
+  pointer-events : none !important;
+}
+
+.flatButton {
+  border-color: #ff7958;
+  background: transparent;
+  margin: 1em 5px 1em 5px;
+}
+
+.flatButton:hover {
+  background-color: #ff7958;
+  border-color: #ff7958;
+}
+
+@media screen and (max-width:960px) {
+  .flatButton {
+    width: 100%;
+  }
+}

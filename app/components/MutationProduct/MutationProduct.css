@@ -1,0 +1,20 @@
+.wraperMutationProduct {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.wraperMutationProduct > * {
+  padding: 15px;
+  flex: 1 auto;
+}
+
+.wraperMutationProduct header, .wraperMutationProduct footer {
+  width: 100%;
+}
+
+.wraperMutationProduct aside {
+  text-align: left;
+  max-width: 330px;
+}

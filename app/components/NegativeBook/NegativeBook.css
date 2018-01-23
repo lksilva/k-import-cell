@@ -1,0 +1,18 @@
+.labelWarn {
+  text-align: center;
+  font-weight: 400;
+  padding: 25px;
+  margin: 110px;
+  background-color: #fcf8e3;
+  border-color: #faf2cc;
+  color: #8a6d3b;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.wraperNegativeForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
